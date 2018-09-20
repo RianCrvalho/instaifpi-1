@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="instaifpi" version="4">
+  <OBJECT>
+    <ID name="instaifpi" mc="Standard.Package" uid="30663a59-033e-430c-8208-d73df9b8fc18"/>
+    <PID name="instaifpi" mc="Standard.Project" uid="4f5fa383-6a7e-44db-9f82-331e736df5e3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[instaifpi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuário" mc="Standard.Actor" uid="edf33682-b0fb-47b5-b76f-c036b9e0fae6"/>
+        <COMPID name="Dar Like na Foto" mc="Standard.UseCase" uid="96722f0f-a733-4d7c-8d8c-d5a85ca1a006"/>
+        <COMPID name="Adicionar Localização à Foto" mc="Standard.UseCase" uid="b0f4a066-d5c2-4b92-9139-9d6dabbab943"/>
+        <COMPID name="Marcar Pessoa na Foto" mc="Standard.UseCase" uid="e413b2bc-cf5e-47a1-8cef-8f63d37dbdbc"/>
+        <COMPID name="Postar Foto" mc="Standard.UseCase" uid="e3b35ef1-df7f-47af-af7d-ada3cab8d1f9"/>
+        <COMPID name="Colocar Foto em Destaque" mc="Standard.UseCase" uid="c3ab71c6-b4ea-4b6c-8af1-8edba380eb67"/>
+        <COMPID name="Compartilhar Foto" mc="Standard.UseCase" uid="af5138e6-73de-4ba3-9fcf-1e767d822607"/>
+        <COMPID name="Escrever Comentário" mc="Standard.UseCase" uid="9375792d-2d5e-4377-833b-19aaf4c4ad9f"/>
+        <COMPID name="Apagar Comentário" mc="Standard.UseCase" uid="a6d0e36e-ffda-498d-9bd6-f9437063dcf4"/>
+        <COMPID name="Editar Comentário" mc="Standard.UseCase" uid="d1ec55aa-55a0-48de-94df-183d1cbfec53"/>
+        <COMPID name="Curtir Comentário" mc="Standard.UseCase" uid="f1b29c0d-69b1-4f05-be34-bf153300ae33"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Fotos" mc="Standard.UseCaseDiagram" uid="e6a3dfba-59d9-4feb-9087-6ca4788c044b"/>
+        <COMPID name="Comentários" mc="Standard.UseCaseDiagram" uid="d6364a44-a0c8-4efa-b9c6-513677032447"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8b4b2845-dc29-4981-9455-5723a726c065"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

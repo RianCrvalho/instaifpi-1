@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="instaifpi" version="4">
+  <OBJECT>
+    <ID name="instaifpi" mc="Standard.Project" uid="4f5fa383-6a7e-44db-9f82-331e736df5e3"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[instaifpi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="instaifpi" mc="Standard.Package" uid="30663a59-033e-430c-8208-d73df9b8fc18"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="instaifpi" mc="Infrastructure.DiagramSet" uid="a25fe14e-7c33-485e-980e-373d89966f9e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
